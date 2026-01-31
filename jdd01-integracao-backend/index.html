@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="application/javascript" src="gerenciarProdutos.js"></script>
+</head>
+<body onload="renderizarTabelaProdutos()">
+    <div class="container">
+        <div class="header">
+            <h1>Cadastro de Produtos</h1>
+        </div>
+        
+        <div class="form-container">
+            <form>
+                <div class="form-group">
+                    <label for="sku">SKU</label>
+                    <input type="text" name="sku" id="sku" placeholder="Digite o código SKU">
+                </div>
+
+                <div class="form-group">
+                    <label for="nome">Nome do Produto</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite o nome do produto">
+                </div>
+
+                <div class="form-group">
+                    <label for="descricao">Descrição</label>
+                    <textarea name="descricao" id="descricao" placeholder="Descreva o produto..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="preco">Preço (R$)</label>
+                    <input type="number" name="preco" id="preco" placeholder="0,00" step="0.01" min="0">
+                </div>
+
+                <button type="button" class="btn-cadastrar" onclick="cadastrarProduto()">Cadastrar Produto</button>
+            </form>
+
+            <div class="produtos-section">
+                <h2 class="produtos-title">Produtos Cadastrados</h2>
+                <div class="table-container">
+                    <table class="produtos-table" id="tabela-produtos">
+                        <thead>
+                            <tr>
+                                <th>SKU</th>
+                                <th>Nome</th>
+                                <th>Descrição</th>
+                                <th>Preço</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody id="lista-produtos">
+                            <tr>
+                                <td colspan="5" class="empty-state">Carregando produtos...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
