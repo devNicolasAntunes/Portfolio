@@ -1,0 +1,50 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --color-cinzaClaro: #6e6b6b;
+    --color-cinzaEscuro: #333333;
+    --color-azulClaro: #6288AB;
+    --color-cinzaClarinho: #d9d9d9;
+}
+
+.bg-cinzaC {
+    background-color: var(--color-cinzaClaro);
+}
+
+.txt-cinzaE {
+    color: var(--color-cinzaEscuro);
+}
+
+.txt-azulC {
+    color: var(--color-azulClaro);
+}
+
+.txt-cinzaClarinho {
+    color: var(--color-cinzaClarinho);
+}
+
+.bg-azulClaro {
+    background-color: var(--color-azulClaro);
+}
+
+.bg-cinzaEscuro {
+    background-color: var(--color-cinzaEscuro);
+}
+
+.btn-cinzaClarinho {
+    color: var(--color-cinzaClarinho);
+}
+
+.btn-azulClaro {
+    background-color: var(--color-azulClaro);
+}
+
+.bg-cinzaClarinho {
+    background-color: var(--color-cinzaClarinho);
+}
+
+html {
+    scroll-behavior: smooth;
+}
