@@ -1,0 +1,25 @@
+:root {
+    --color-blue: #000033;
+}
+
+.bg-blue {
+    background-color: var(--color-blue);
+}
+
+:root {
+    --color-blue-200: #5a5add;
+    --color-blue-900: #000033;
+}
+
+.bg-blue {
+    background-color: var(--color-blue-900);
+}
+
+.text-blue {
+    color: var(--color-blue-200);
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+}
