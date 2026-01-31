@@ -1,0 +1,116 @@
+/* O asterisco representa todos os elementos da página */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Criando variáveis em CSS */
+:root {
+    --color-pink: #db2a4e;
+    --color-light: #f4f4f4;
+    --color-blue: #0c0727;
+    --gradient: linear-gradient(to top, rgba(0, 0, 0, .7), rgba(0, 0, 0, .3));
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: var(--gradient), url(../images/pexels-felix-mittermeier-957002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: var(--color-light);
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 7vmin;
+    font-weight: 300;
+}
+
+.hero h2,
+.cards h2 {
+    font-size: 5vmin;
+    font-weight: 300;
+}
+
+.btn {
+    color: var(--color-light);
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 3px solid var(--color-pink);
+    padding: 8px 30px;
+    border-radius: 70px;
+    background-color: var(--color-pink);
+    font-weight: 600;
+    transition: .7s;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: var(--color-pink);
+}
+
+.cards {
+    padding: 70px 30px;
+    text-align: center;
+}
+
+.cards-grid {
+    width: 95%;
+    height: 100vh;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-item {
+    width: 40%;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 30px #ccc;
+    padding: 30px 0;
+    border-radius: 10px;
+    transition: scale .5s;
+}
+
+.card-item:hover {
+    scale: 1.1;
+}
+
+.card-item img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.card-item h3 {
+    font-weight: 300;
+}
+
+.card-item p {
+    width: 70%;
+    text-wrap: balance;
+}
+
+
+@media(width <= 1000px){
+    .card-item {
+        width: 90%;
+    }
+}
