@@ -58,19 +58,6 @@ Aplicação backend RESTful para gerenciamento de produtos.
 
 ---
 
-## 🏨 Site de Aluguel de Pousadas
-**Tecnologias:** HTML • CSS • JavaScript • Bootstrap
-
-Desenvolvimento de uma aplicação web voltada para o aluguel de pousadas, com foco na experiência do usuário e na organização visual da interface.
-
-**Principais funcionalidades:**
-- Listagem de pousadas disponíveis
-- Visualização de detalhes das propriedades
-- Organização e gerenciamento de informações de locação
-- Layout responsivo e navegação intuitiva
-
----
-
 ## 👕 Website de Loja Virtual de Roupas
 **Tecnologias:** HTML • CSS • JavaScript • Bootstrap
 
