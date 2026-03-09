@@ -1,6 +1,5 @@
 # 📌 Portfólio de Projetos – Desenvolvimento Web & Backend
 
-Bem-vindo ao meu repositório de **portfólio** 🚀  
 Aqui você encontrará projetos desenvolvidos com foco em **frontend**, **backend**, **APIs REST**, **arquitetura de software** e **boas práticas de desenvolvimento**.
 
 Os projetos abaixo demonstram minha evolução técnica, capacidade de resolver problemas reais e aplicação de conceitos utilizados no mercado.
